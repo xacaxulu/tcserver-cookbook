@@ -1,0 +1,9 @@
+{
+  
+  "id": "tc-instance3",
+  "inst": "tc-instance3",
+  "port": "85",
+  "java_version":"jdk1.7.0_45.x64",
+  "JAVA_HOME":"/opt/vFabric/java/jdk1.7.0_45.x64",
+  "tc_server_version":"7.0.57.B.RELEASE"
+}

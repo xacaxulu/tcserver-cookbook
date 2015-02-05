@@ -1,0 +1,20 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  # - name: ubuntu-12.04
+  - name: centos-6.5
+    driver:
+      customize:
+         memory: 3000
+
+suites:
+  - name: default
+    run_list:
+      - recipe[tcserver::java-for-tcserver]
+      - recipe[tcserver::default]
+    attributes:
